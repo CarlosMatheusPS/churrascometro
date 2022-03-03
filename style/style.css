@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: #f5ebdc;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.151) 0px 5px 15px;
+}
+
+.container h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: #d62300;
+    border-radius: 10px 10px 0px 0px;
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+.container p {
+    text-align: center;
+    color: blue;
+}
+
+input {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #ff4800;
+    color: white;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+input::placeholder {
+    color: #f5ebdc;
+}
+
+button {
+    display: block;
+    background-color: red;
+    color: yellow;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+#resultado p {
+    margin: auto;
+    display: block;
+    color: black;
+    background-color: yellow;
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid rgb(255, 0, 0) 1px;
+}
