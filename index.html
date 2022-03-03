@@ -10,23 +10,24 @@
 </head>
 
 <body>
+    <main>
+        <div class="container">
+            <h1>Churrascometro</h1>
+            <p>Quantidade de Adultos</p>
+            <input type="number" name="adultos" id="adultos" placeholder="Adultos">
+            <p>Quantidade de Crianças</p>
+            <input type="number" name="criancas" id="criancas" placeholder="Crianças">
+            <p>Duração do Churrasco</p>
+            <input type="number" name="duracao " id="duracao" placeholder="Duração em horas">
 
-    <main class="container">
-        <h1>Churrascômetro</h1>
-        <p>Quantidade de Adultos</p>
-        <input type="number" name="adultos" id="adultos" placeholder="Adultos">
-        <p>Quantidade de Crianças</p>
-        <input type="number" name="criancas" id="criancas" placeholder="Crianças">
-        <p>Duração do Churrasco</p>
-        <input type="number" name="duracao " id="duracao" placeholder="Duração (h)">
+            <button onclick="calcular()">Calcular</button>
 
-        <button onclick="calcular()">Calcular</button>
-
-        <div id="resultado">
+            <div id="resultado">
+                <p id="descricao">Calcule a quantidade recomendada de carnes, cervejas e bebidas em geral para o seu churrasco!</p>
+            </div>
+            <script src="./scripts/script.js"></script>
         </div>
-        <script src="./scripts/script.js"></script>
     </main>
-
 </body>
 
 </html>
