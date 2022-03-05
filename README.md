@@ -5,4 +5,4 @@
  
 Este projeto tem como objetivo práticar e desenvolver, uma estrutura semântica em HTML, Estilos em CSS e lógica de programação básica-intermediária em JavaScript.
 
-Link para vizualizar o projeto: https://carlosmatheusps.github.io/churrascometro/index
+Link para vizualizar o projeto: https://carlosmatheusps.github.io/churrascometro/
